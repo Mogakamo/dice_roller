@@ -24,7 +24,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val randomInt = Random.nextInt(6) + 1
-        val diceImage: ImageView = findViewById(R.id.imageView)
+        lateinit var diceImage: ImageView
+
+        diceImage = findViewById(R.id.imageView)
 
         val drawableResource = when (randomInt) {
             1 -> R.drawable.dice_1
