@@ -3,4 +3,5 @@
     <string name="hello_android">Hello Android!</string>
     <string name="roll">Button</string>
     <string name="roll_">roll</string>
+    <string name="dice">dice for the application</string>
 </resources>
